@@ -37,9 +37,7 @@ The figures use the line styles, markers and axis limits of the paper.
 
 - The computations use the grid $256^2$ instead of $1024^2$ (except the discretization study), so the
   numbers differ slightly from the paper. The data of P2 and P3 are given on $256^2$ in the paper too, and
-  on $1024^2$ the notebooks reproduce the paper's runs (P1 and P3 to about $10^{-11}$; P2 to about $10^{-12}$
-  up to iteration 30, and to about $10^{-4}$ in the last iterations, where finite-precision effects of CG
-  on the plateaus differ between implementations).
+  on $1024^2$ the notebooks reproduce the paper's runs.
 - For P2 and P3, the effective conductivity in the discretization study is the discrete solution on
   $4096^2$ from the paper's runs (a $4096^2$ solve takes too long for a notebook).
 - Each monitored run stops when the squared residual, the trivial upper bound, the GR upper bound and the
